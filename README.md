@@ -154,6 +154,9 @@ Improved UI styling
 
 Pagination for tasks
 
+## API Documentation
+Postman Documentation:
+https://documenter.getpostman.com/view/51384575/2sBXVfhr41
 
 
 
