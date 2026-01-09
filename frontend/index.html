@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div id="header" style="display:none;">
+    <span id="welcome"></span>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <h1>Task Management System</h1>
+
+  <!-- REGISTER -->
+  <div class="box" id="registerBox">
+    <h2>Register</h2>
+    <input id="rname" placeholder="Name">
+    <input id="remail" placeholder="Email">
+    <input id="rpassword" type="password" placeholder="Password">
+    <button onclick="register()">Register</button>
+  </div>
+
+  <!-- LOGIN -->
+  <div class="box" id="loginBox">
+    <h2>Login</h2>
+    <input id="lemail" placeholder="Email">
+    <input id="lpassword" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- TASKS -->
+  <div class="box" id="taskBox">
+    <h2>Add Task</h2>
+    <input id="task" placeholder="Task name">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <div class="box" id="taskListBox">
+    <h2>Tasks</h2>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
