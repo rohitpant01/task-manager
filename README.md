@@ -42,19 +42,33 @@ The project focuses on clean architecture, authentication, and user-specific dat
 ## Project Structure
 
 Task/
+
 ├─ backend/
+
 │ ├─ src/
+
 │ │ ├─ config/
+
 │ │ ├─ controllers/
+
 │ │ ├─ middleware/
+
 │ │ ├─ routes/
+
 │ │ ├─ app.js
+
 │ │ └─ server.js
+
 │ ├─ .env
+
 │ └─ package.json
+
 └─ frontend/
+
 ├─ index.html
+
 ├─ style.css
+
 └─ script.js
 
 
