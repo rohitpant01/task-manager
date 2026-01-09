@@ -154,6 +154,16 @@ Improved UI styling
 
 Pagination for tasks
 
+
+###Scalability Note
+
+The application can support more users by running multiple backend servers.
+JWT authentication allows the system to scale without storing user sessions.
+Database performance can be improved using indexing and connection pooling.
+Caching can be added in the future to handle higher traffic smoothly.
+
+
+
 ## API Documentation
 Postman Documentation:
 https://documenter.getpostman.com/view/51384575/2sBXVfhr41
