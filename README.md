@@ -6,7 +6,7 @@ The application allows users to register, log in securely, and manage their pers
 
 The project focuses on clean architecture, authentication, and user-specific data handling.
 
----
+
 
 ## Features
 - User Registration
@@ -18,7 +18,6 @@ The project focuses on clean architecture, authentication, and user-specific dat
 - Logout functionality
 - UI state management (hide login/register after login)
 
----
 
 ## Tech Stack
 
@@ -43,22 +42,35 @@ The project focuses on clean architecture, authentication, and user-specific dat
 ## Project Structure
 
 Task/
+
 ├─ backend/
+
 │ ├─ src/
+
 │ │ ├─ config/
+
 │ │ ├─ controllers/
+
 │ │ ├─ middleware/
+
 │ │ ├─ routes/
+
 │ │ ├─ app.js
+
 │ │ └─ server.js
+
 │ ├─ .env
+
 │ └─ package.json
+
 └─ frontend/
+
 ├─ index.html
+
 ├─ style.css
+
 └─ script.js
 
----
 
 ## Database Schema
 
