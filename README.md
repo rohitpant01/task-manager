@@ -157,10 +157,9 @@ Pagination for tasks
 
 ###Scalability Note
 
-The application can support more users by running multiple backend servers.
-JWT authentication allows the system to scale without storing user sessions.
-Database performance can be improved using indexing and connection pooling.
-Caching can be added in the future to handle higher traffic smoothly.
+The application can be scaled using load balancing to handle more users.
+Caching can be added to reduce database load and improve performance.
+In the future, the system can be split into microservices for better scalability.
 
 
 
